@@ -1,0 +1,22 @@
+.header {
+  background-color: black;
+  .header__content {
+    max-width: 1200px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    // align-items: center;
+    ul {
+      list-style: none;
+      li {
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+          color: green;
+        }
+      }
+    }
+  }
+}

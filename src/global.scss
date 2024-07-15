@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    font-family:"Lato", sans-serif ;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.wrapper{
+    padding: 45px 0;
+}
